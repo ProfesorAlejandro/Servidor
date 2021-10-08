@@ -8,18 +8,6 @@
     varias
     líneas
 */ 
- 
-
-//DIFERENCIA ENTRE COMILLAS SIMPLES Y DOBLES
-
-$nombre = 'Alejandro';
-
-echo "Mi nombre es  $nombre";
-
-echo '<br>';
-
-echo 'Mi nombre es  $nombre';
-
 
 //VARIABLES
 
@@ -120,9 +108,6 @@ var_dump($numero);
 $numero = (string) $numero;
 
 var_dump($numero);
-
-
-
 
 
 

@@ -1,0 +1,22 @@
+﻿<?php
+
+$a = "domingo";
+switch ($a) {
+	case "lunes":
+		echo "!Ánimo!";	
+  	case "martes":
+  	case "miércoles":
+ 	case "jueves":
+ 	case "viernes":
+ 	    echo "Día de diario";
+		echo " !A trabajar!";
+		break;
+
+	case "sábado":     
+	case "domingo":	   
+ 	echo "Festivo!!!";	
+	    break;
+	default: echo "El día no existe";	
+	break;
+}
+?>
