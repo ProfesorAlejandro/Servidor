@@ -1,0 +1,1 @@
+ALTER TABLE alumnos ADD CONSTRAINT alumnos_grados_fk FOREIGN KEY(grado_id) REFERENCES grados(id);
