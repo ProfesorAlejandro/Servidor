@@ -1,0 +1,5 @@
+El resultado de sumar 3 y 4 es 7
+El resultado de sumar 10 y 2 es 12
+El resultado de restar 6 y 5 es 1 
+El resultado de multiplicar 4 y 7 es  28 
+El resultado de dividir 20 y 5 es  4 
