@@ -8,15 +8,14 @@
 </head>
 <body>
 
-    <h1>Rserva de canchas</h1>
-
     <form action="index.php" method="POST">
-        <input type="text" name="nombre_equipo" placeholder="Equipo" /><br>
+
+        <input type="text" name="equipo" placeholder="Equipo" autocomplete="off" /><br>
         <input type="date" name="fecha" /><br>
-        <input type="time" name="time" /><br>
+        <input type="time" name="hora" /><br>
 
-        <button type="submit" name="btn_submit">Guardar</button>
-
+        <button type="submit" name="btn_reserva">Registrar</button>
+        
     </form>
     
 </body>

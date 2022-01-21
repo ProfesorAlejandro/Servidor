@@ -1,23 +1,25 @@
 <?php
+--+
+
++
 
 class ReservaController{
 
     public function saveReserva(){
-
-        if(isset($_POST['btn_submit'])){
-            $equipo = $_POST['nombre_equipo'];
+        if(isset($_POST['btn_reserva'])){
+            echo 'PASANDO POR EL CONTROLLER';
+            $equipo = $_POST['equipo'];
             $fecha = $_POST['fecha'];
-            $time = $_POST['time'];
+            $hora = $_POST['hora'];
 
-            $modelo = new Reserva();
-            $modelo->save($equipo,$fecha,$time);
-
+           
+            $reserva = new Reserva();
+            $reserva->save($equipo,$fecha,$hora);
+            
         }
-
     }
 
     public function index(){
         require_once 'view/form.php';
     }
-
 }
